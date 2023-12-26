@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-weight: 600 800;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+/* this will ensure that the box is always centered no mnatter what screen size you are on */
+@media(min-width: 375px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+.container {
+    /* This figure is for the mobile view. How will it scale automatically into desktop? */
+    max-width: 375px;
+    /* places equal margin on both sides of container */
+    margin-inline: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 370px;
+    height: 520px;
+    box-shadow: 10px 10px 0px black;
+    border: 1px solid hsl(0, 0%, 7%);
+    font-family: Figtree;
+}
+
+.container:hover {
+    box-shadow: 15px 15px 0px black;
+}
+
+h2 {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 3px 8px;
+    margin: 1rem 0rem .75rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.published-at {
+    font-size: .75rem;
+    color: hsl(0, 0%, 7%);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.blog-description {
+    color: hsl(0, 0%, 50%);
+    font-size: .95rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.background-image {
+    border-radius: 1rem;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.username {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
