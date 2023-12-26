@@ -144,6 +144,3 @@ These topics came up during the course of this challenge, and reviewing these to
 
 - Github - [@blucorazon](https://www.github.com/blucorazon)
 - Frontend Mentor - [@blucorazon](https://www.frontendmentor.io/profile/blucorazon)
-
-## Acknowledgments
-- [Thomas Sankara's Guide](https://www.youtube.com/watch?v=3n22cowxoKU) - This tutorial helped get me going and even though our process deviated on a couple requirements, I found great tips here when it came to using flexbox and was presented with a pretty interesting way to structure the classes in the css file. 
