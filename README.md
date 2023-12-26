@@ -31,8 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Check my solution out here](https://blucorazon.github.io/blog-preview-card/)
 
 ## My process
 - Create CSS sheet and link it to html file
